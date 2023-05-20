@@ -35,3 +35,10 @@ accumulates the results into the mutable container
 Combiner     : StringBuilder::append
 combines the partial results when the reduction operation takes place in parallel
 ```
+---
+# Assesment 4 : Run Task every two minutes
+
+Log some message every 2 minutes <br>
+`Timer` : provides schedule method to perform timed actions <br>
+`TimerTask` : provides abstract run method which can be overridden <br>
+`schedule(TimerTask, delay, period)` : provides way to execute `TimerTask` with `delay` and repeat in given `period`
