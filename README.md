@@ -23,9 +23,15 @@ eg: Qz38hsAIDHI
 `filter(Predicate) : filter special characters that comes between given range `<br>
 `limit(maxSize)    : limit the number of random Strings generated `<br>
 `collect(Supplier,Accumulator,Combiner)`<br>
-**Supplier** : StringBuilder::new <br>
-supply new instance of StringBuilder <br>
-**Accumulator** : StringBuilder::appendCodePoint <br>
-accumulates the results into the mutable container <br>
-**Combiner** : StringBuilder::append <br>
+```
+Supplier   : StringBuilder::new 
+supply new instance of StringBuilder 
+```
+```
+Accumulator : StringBuilder::appendCodePoint
+accumulates the results into the mutable container 
+```
+```
+Combiner     : StringBuilder::append
 combines the partial results when the reduction operation takes place in parallel
+```
