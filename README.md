@@ -1,3 +1,12 @@
+# Assesment 2 : LocalDateTime to UTC and vice versa 
+
+`ZoneId` : indcates the zone id of geographical region <br>
+`ZonedDateTime` : date and time along with zone  <br>
+`withZonedSameInstant(zoneId)` : convert a zonedDateTime instant to zonedDateTime instant of another zone <br>
+`DateTimeFormatter` : format date and time object based on it's pattern
+
+---
+
 # Assesment 3 : Generate random Alpha-Numeric String
 
 eg: Qz38hsAIDHI
