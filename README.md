@@ -1,4 +1,4 @@
-# Generate random Alpha-Numeric String
+# Assesment 3 : Generate random Alpha-Numeric String
 
 eg: Qz38hsAIDHI
 
